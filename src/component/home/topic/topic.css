@@ -1,0 +1,29 @@
+.Topic{
+    width: 15%;
+    border: 1px solid #ccc;
+    text-align: start;
+}
+
+.Topic > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Topic > ul > li{
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.Lister{
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+    font-size: .7rem;
+}
+
+.Lister:hover{
+    color: #CD091E;
+}
+

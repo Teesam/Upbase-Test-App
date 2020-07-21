@@ -1,0 +1,42 @@
+.Body{
+    width: 80%;
+}
+
+.Body > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 15rem;
+}
+
+
+.News-div > p{
+    font-size: .8rem;
+    margin: 0 2rem;
+    text-align: start;
+}
+
+.News-div > h3{
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.Source{
+    margin-left: 2rem;
+}
+
+.Source > p{
+    font-size: .7rem;
+    color: #555;
+}
+
+span{
+    color: red;
+    cursor: pointer;
+}
