@@ -1,0 +1,51 @@
+.SignIn{
+    height: 100vh;
+    font-family: 'nunito';
+}
+
+.SignIn-btn{
+    padding: .5rem 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7rem;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.SignIn-btn:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+#signIn-input{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+#signIn-form{
+    margin: auto;
+    margin-bottom: 13rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#register-cue{
+    margin-top: 2rem;
+}
+
+#cue-link{
+    margin-left: 1rem;
+    color: #CD091E;
+    text-decoration: none;
+}
+
+.SignIn-header-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#signIn-header{
+    margin-bottom: 5rem;
+}
