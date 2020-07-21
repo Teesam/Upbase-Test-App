@@ -45,3 +45,16 @@
     background-color: white;
     text-shadow: 3px 1px 3px rgb(221, 199, 216);
 }
+
+@media (max-width: 900px){
+
+    #logo{
+        color: #CD091E;
+        font-size: 1.5rem;
+        padding: 2rem 2rem;
+        font-family: 'playfair display', sans-serif;
+        background-color: white;
+        text-shadow: 3px 1px 3px rgb(221, 199, 216);
+    }
+
+}

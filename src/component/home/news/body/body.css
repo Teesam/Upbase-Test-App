@@ -40,3 +40,24 @@ span{
     color: red;
     cursor: pointer;
 }
+
+
+@media (max-width: 900px){
+
+    .Body{
+        width: 90%;
+    }
+
+    .News-div > p{
+        font-size: .8rem;
+        margin: 0 2rem;
+        text-align: start;
+    }
+
+    img{
+        width: 10rem;
+    }
+
+}
+
+

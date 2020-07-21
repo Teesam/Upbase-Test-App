@@ -29,6 +29,8 @@ useEffect(() => {
 
 const resource = data;
 
+// const [ author]
+
 
 console.log(resource);
     

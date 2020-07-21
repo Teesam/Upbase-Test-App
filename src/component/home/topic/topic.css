@@ -1,7 +1,7 @@
 .Topic{
     width: 15%;
-    border: 1px solid #ccc;
     text-align: start;
+    box-shadow: 0px 7px 10px black;
 }
 
 .Topic > ul {

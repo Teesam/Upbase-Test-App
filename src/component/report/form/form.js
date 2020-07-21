@@ -31,7 +31,8 @@ const Form = () => {
                     <input name = 'author' type = 'text' />
                 </div>
                 <div className = 'form-div'>
-                    <input name = 'date' type = 'file' id = 'file' />
+                    <label for = 'url'>URL To Image</label>
+                    <input name = 'url' type = 'text' />
                 </div>
                 <div className = 'form-div'>
                     <label for = 'date'>Date</label>
