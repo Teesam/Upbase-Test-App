@@ -7,13 +7,7 @@ import { Link } from 'react-router-dom';
 
 const SignIn = () => {
 
-    const  [username, setUsername] = useState('');
-
-    const usernameHandler = e => {
-        setUsername( e.target.value );
-    }
-
-    console.log(username); 
+    
 
     return(
         <div className = 'SignIn'>
@@ -22,7 +16,7 @@ const SignIn = () => {
                     <h2 id = 'signIn-header'>Sign-In</h2>
                     <div className = 'SignIn-header-div'>
                         <label htmlFor = 'username'>Username</label>
-                        <input onChange ={usernameHandler} name = 'username' type = 'text' id = 'signIn-input' />
+                        <input name = 'username' type = 'text' id = 'signIn-input' />
                     </div>
                     <Link to = '/signInPassword' className = 'SignIn-btn'>Next</Link>
 
