@@ -3,6 +3,7 @@ import './signin.css';
 import Nav from '../home/nav/nav';
 import Footer from '../home/footer/footer';
 import { Link } from 'react-router-dom';
+import ReadMoreReact from 'read-more-react';
 
 
 const SignIn = () => {
