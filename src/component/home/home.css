@@ -3,3 +3,19 @@
     align-items:flex-start;
     justify-content: space-evenly;
 }
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    #news-align{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        justify-content: center;
+    }
+
+}

@@ -58,3 +58,57 @@
     }
 
 }
+
+
+@media (max-width: 480px){
+
+    #logo{
+        color: #CD091E;
+        font-size: .7rem;
+        padding: unset;
+        font-family: 'playfair display', sans-serif;
+        background-color: white;
+        text-shadow: 3px 1px 3px rgb(221, 199, 216);
+    }
+
+    
+
+.Nav{
+    font-family: 'merriwaether', sans-serif;
+    background-color: transparent;
+    width: 100%;
+    max-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: unset;
+    margin-bottom: unset;
+    border-bottom: unset;
+}
+
+.Nav > div > ul{
+    display: flex;
+    margin-right: unset;
+}
+
+.Nav > div > ul > li{
+    list-style-type: none;
+    margin: unset;
+    margin: unset;
+    transition: .4s;
+}
+
+
+.Nav > div > ul > li > a{
+    text-decoration: none;
+    color: #555;
+    font-size: .7rem;
+    padding: unset;
+}
+
+.Nav > div > ul > li > a:hover{
+    color: #CD091E;
+}
+
+}
