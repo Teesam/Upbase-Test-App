@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import SignIn from './component/signIn/signin';
 import SignInPassword from './component/signIn/signinpassword/signinpassword';
 import Report from './component/report/report';
+import Uploaded from './component/uploaded/uploaded';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Route path = '/' exact strict component = {Home} /> 
 
         <Route path = '/report' exact strict component = {Report} /> 
+
+        <Route path = '/uploaded' exact strict component = {Uploaded} /> 
+
 
         <Route path = '/register' exact strict component = {Register} /> 
 

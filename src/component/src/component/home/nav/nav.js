@@ -17,6 +17,9 @@ const Nav = () =>{
                         <NavLink to = '/report'>Report</NavLink>
                     </li>
                     <li>
+                        <NavLink to = '/uploaded'>Uploaded</NavLink>
+                    </li>
+                    <li>
                         <NavLink to = '/register'>Register</NavLink>
                     </li>
                     <li>
